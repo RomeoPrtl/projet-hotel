@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;600;700&display=swap');
+*{
+    font-family: 'Saira Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+body{
+    margin-bottom: 50px;
+}
+header{
+    padding: 20px 50px;
+    background-color: #0C0A6C;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+header>nav>ul{
+    display: flex;
+}
+nav>ul>li{
+    margin-left: 120px;
+    list-style: none;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+/* formulaire */
+.container{
+    background-color: #0C0A6C;
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid white;
+    margin: 50px auto;
+    width: 560px;
+    height: auto;
+    color: white;
+   
+}
+h1{
+    padding: 10px;
+    text-align: center;
+}
+.align-left{
+    text-align: left;
+}
+input{
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Saira Condensed', sans-serif;
+    text-transform: uppercase;
+    padding: 5px;
+    color:#6F81E5;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 35px;
+    width: 500px;
+    margin: 10px 10px;  
+}
+#select-label{
+    margin-right: 30px;
+}
+#margin{
+    margin: 20px 0 10px 0;
+}
+select{
+    padding: 5px 100px;
+    border: 1px solid #6F81E5;
+    background-color: #0C0A6C;
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+    border-radius: 5px;
+}
+
+
+#envoyer{
+    color: #ffffff;
+    border: 2px solid white;
+    background-color: #0C0A6C;
+}
+button{
+    font-family: 'Saira Condensed', sans-serif;
+    border: none;
+    margin: 20px 0;
+    background-color: #0C0A6C;
+}
+#envoyer:hover{
+    transition: 0.5s;
+    background-color: #6F81E5;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+}
+.btn-reservation:hover{
+    background-color: #0C0A6C;
+}
+.btn:hover{
+    background-color: #0C0A6C;
+}
+a:hover{
+    color: #6F81E5;
+}

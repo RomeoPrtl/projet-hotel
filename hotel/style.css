@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;600;700&display=swap');
+*{
+    font-family: 'Saira Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+body{
+    margin-bottom: 50px;
+}
+header{
+    padding: 20px 50px;
+    background-color: #0C0A6C;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    margin-left: 120px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+/* main */
+main{
+    text-align: center;
+    margin-top: 50px;
+}
+h2{
+    margin: 40px auto;
+    font-size: 46px;
+    width: 60%;
+}
+section > p{
+    margin: 40px auto;
+    width: 35%;
+}
+.btn-reservation{
+    border: none;
+    border-radius: 5px;
+    background-color: #6F81E5;
+    padding: 20px;
+    width: 250px;
+}
+main button a{
+    color: white;
+    text-decoration: none;
+}
+span{
+    color: #6F81E5;
+}
+
+
+
+
+/* css des cartes */
+section ul{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+section li{
+    list-style: none;
+}
+.card{
+    width: 22vw;
+    height: 66vh;
+    background-color: aqua;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+}
+.card .image-cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+.card-text-hover-effect{
+    position: relative;
+    top: 110px;
+    color: white;
+    margin: 15px;
+    font-size: 13px
+}
+.card-text-hover-effect h3{
+    margin-bottom: 10px;
+}
+.card-text-hover-effect .btn{
+    border: none;
+    border-radius: 5px;
+    background-color: #6F81E5;
+    margin-top: 20px;
+    padding: 8px;
+    width: 150px;
+}
+.card-text-hover-effect a{
+    text-decoration: none;
+    color: white;
+}
+.btn-reservation:hover{
+    background-color: #0C0A6C;
+}
+.btn:hover{
+    background-color: #0C0A6C;
+}
+a:hover{
+    color: #6F81E5;
+}

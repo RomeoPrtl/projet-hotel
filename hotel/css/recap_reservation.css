@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;600;700&display=swap');
+*{
+    font-family: 'Saira Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+body{
+    margin-bottom: 50px;
+}
+header{
+    padding: 20px 50px;
+    background-color: #0C0A6C;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    margin-left: 120px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    margin-top: 50px;
+    text-align: center;
+}
+table{
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+th,td{
+    border:1px solid #6F81E5;
+    padding: 20px;
+}
+.btn-reservation:hover{
+    background-color: #0C0A6C;
+}
+.btn:hover{
+    background-color: #0C0A6C;
+}
+a:hover{
+    color: #6F81E5;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hôtel.io / Réservation</title>
+    <link rel="stylesheet" href="../css/reservation.css">
+</head>
+<body>
+    <header>
+        <h1>Hôtel.io</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../html/hotels.html">Nos Hôtels</a></li>
+                <li><a href="../html/reservation.html">Réserver une chambre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Réserver une chambre</h2>
+            <form action="../php/index.php" method="GET">
+                <label class="align-left" for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom">
+       
+                <label class="align-left" for="email">E-mail :</label>
+                <input type="email" id="email" name="email">
+
+
+                <label class="align-left" for="date-deb">Date d'arrivée :</label>
+                <input type="date" id="date-deb" name="date-deb">
+
+
+                <label class="align-left" for="date-fin">Date de départ :</label>
+                <input type="date" id="date-fin" name="date-fin">
+                <div id="margin">
+                    <label id="select-label" class="align-left" for="hotel">Choissisez votre hôtel :</label>
+                <select id="hotel" name="hotel">
+                   <option value="Le Palladium">Le Palladium</option>
+                   <option value="L'Osiris">L'Osiris</option>
+                   <option value="Le Palace">Le Palace</option>
+                   <option value="Le Crystal">Le Crystal</option>
+                </select>
+                </div>
+
+
+                <button><input type="submit" id="envoyer" name="submit"></button>
+            </form>
+   
+        </div>
+    </main>
+</body>
+</html>
